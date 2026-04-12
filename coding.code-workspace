@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "fylo project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "coding"
+	}
+}

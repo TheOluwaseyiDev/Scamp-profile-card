@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    text-align: center;
+    padding: 30px;
+}
+h1, p {
+    margin-bottom: 15px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+}
+button {
+    padding: 8px 15px;
+    background-color: #1e90ff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+a {
+    color:  white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #0d6efd;
+}

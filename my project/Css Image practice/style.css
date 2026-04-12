@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Begin Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ img {
+    display: block;
+}
+/* End Reset*/
+
+/* Utility Classes*/
+.nowrap {
+    white-space: nowrap;
+}
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+/* End Utility Classes*/
+
+body {
+    min-height: 100vh;
+    font-family:'Nunito' sans-serif;
+    background-color: aliceblue;
+    background-image: url(Image/), linear-gradient(to bottom, rgb(18, 145, 122), rgb(187, 51, 51));
+    background-size: cover, auto;
+    background-repeat: repeat-y, no-repeat;
+    background-position: left center;
+}
+
+.container {
+    background-color: rgb(251, 210, 156);
+    background-image: url('Image/Spiral-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top bottom;
+    background-size: cover;
+}
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: hsla(0, 0%, 0%, 0.30)
+}
+h1 {
+    font-size: 400%;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+
+   /*  background-color: hsla(180, 100%, 97%, 0.402);
+    padding: 0.25rem;
+    border-radius: 10px; */
+
+    
+}
+.profile-pic-figure {
+    width: 30%;
+    /* width: 100%;
+    height: 400px; */
+}
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 6px double gray;
+    border-radius: 50%;
+}
+
+/* section {
+    margin-top: 25px;
+    padding-left: 2rem;
+    border: 1px solid green;
+} */
+.example img {
+    width: 25%;
+    height: auto;
+
+} 

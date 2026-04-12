@@ -1,0 +1,35 @@
+ body {
+    font-size: 1.5rem;
+    font-family: ;
+ }
+
+ .block {
+    width: 40vw;
+    height: 40vw;
+    background-color:#cbeef3;
+    color: #f26a8d;
+    padding: 1rem;
+ }
+ .left {
+    float: right;
+    margin-right: 1rem;
+ }
+ .right {
+    float: left;
+    margin-left: 1rem;
+ }
+ .clear {
+    clear: both;
+ }
+ p {
+    padding: 0.5rem;
+
+ }
+
+ section {
+    background-color: #f26a8d;
+    border: 1px #333;
+    padding: 1rem;
+    /* overflow: auto; */
+    display: flow-root;
+ }

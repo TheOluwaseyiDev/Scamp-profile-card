@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth;}
+
+body {
+    font-size: 1.5em;
+    min-height: 200vh;
+}
+section {
+    height: 100vh;
+}
+.blue {
+    background-color: blueviolet;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+header, footer {
+    color: aliceblue;
+    text-align: center;
+    height: 100px;
+}
+header {
+    font-size: 3rem;
+    position: sticky;
+    top: 0;
+}
+footer {
+    /* position: fixed; */
+    /* width: 100%; */
+    position: sticky;
+    bottom: 0;
+    background-color: beige;
+    font-size: 2rem;
+}
+a:visited {
+    color: brown;
+}
+.social {
+    background-color: cadetblue;
+    color: white;
+    position: fixed;
+    font-size: inherit;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+/* Remember, how tomake things disapper */
+
+/* //////////////////////////// */
+.outer-container {
+    border: 2px dashed black;
+    margin: 40px auto;
+    height: 95vh;
+    width: 75vw;
+     position: relative; 
+    /* border-style: dashed; */
+}
+.inner-container {
+    border: 2px ridge blue;
+    width: 50vw;
+    height: 60vh;
+    margin: 120px auto;
+    /* position: relative;  */
+}
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding: 1em;
+}
+.absolute {
+    position: absolute;
+    background-color: blueviolet;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* position: static; every one of it is static */
+    /* left: -10000px; its for taking something off the page just like display: none; makes things utterly dissapear even when the code is still in html */
+}
+.relative {
+    background-color: brown;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.fixed {
+    background-color: burlywood;
+    position: fixed;
+    top: 80px;
+}
+.sticky {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}

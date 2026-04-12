@@ -1,0 +1,76 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    grid-auto-rows: minmax(50px auto 50px);
+    grid-template-areas: "hd hd hd hd hd hd hd"
+    "sb sb mn mn mn mn mn"
+    "ft ft ft ft ft ft ft";
+    gap: 1rem;
+}
+.el {
+    background-color: aqua;
+    color: black;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+}
+.header{
+    grid-area: hd;
+
+}
+.sidebar {
+    grid-area: sb;
+    background-color: burlywood;
+}
+.footer {
+    grid-area: ft;
+}
+.container {
+    grid-area: mn;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 3fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1rem 0.5rem;
+    /* grid-auto-flow: column;  */
+}
+.box {
+    color: aliceblue;
+    background-color: black;
+    font-size: 2em;
+    padding: 0.5rem;
+}
+.box:first-child {
+    background-color: rgb(189, 44, 116);
+    grid-column: 1/4;
+    grid-row: 1/3;
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4; instead of all these written out this way we can choose to write it in a shorter form. These below are short hand so the 1-is the starting point then after the / 4 is the end */
+
+    display: grid;
+    place-content: center baseline;
+    /* align-content: center;
+    justify-content: center; a shorter way to write it below. nb: the start is the align and the second is justify */
+}
+.box:last-child {
+    background-color: blueviolet;
+    grid-column: 1/6;
+    grid-row: 5/5;
+
+}
+.box:nth-child(3){
+    background-color: brown;
+    grid-column: 4/6;
+    grid-row: 3/4;
+}
