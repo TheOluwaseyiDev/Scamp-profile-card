@@ -1,15 +1,22 @@
-# Frontend Practice
+# Oluwaseyi's Frontend Portfolio 🚀
 
-This repository contains my learning journey in frontend development.
+Hi! I'm currently learning frontend development and documenting my journey here.
 
-## What I'm learning
-- CSS (Flexbox & Grid)
-- Layout design
-- Building responsive pages
+## 📌 About Me
+I build web pages using HTML and CSS, focusing on layout design with Flexbox and Grid.
 
-## Projects:
-- Landing page
-- Grid layout
-- Practice components
+## 📂 Project Structure
+- practice/ → My learning exercises (CSS, Flexbox, Grid)
+- portfolio/ → My personal website pages
+- projects/ → (Coming soon) real-world projects
 
-More coming soon!
+## ⭐ Featured Work
+Coming soon — currently improving my designs.
+
+## 🌱 Current Focus
+- CSS Grid
+- Layout building
+- Better UI structure
+
+## 🤝 Let's Connect
+I'm open to collaboration and feedback!
