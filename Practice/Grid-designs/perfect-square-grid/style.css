@@ -1,0 +1,16 @@
+/* Grid design for 5 columns,25boxes*/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+}
+
+.item {
+  background-color: steelblue;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+ /* place-content: center center;*/
+}

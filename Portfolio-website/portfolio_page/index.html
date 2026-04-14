@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Template</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="container">
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#intro">Home</a> |
+      <a href="#about">About Me</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- INTRODUCTION SECTION -->
+  <section id="intro" class="hero">
+    <div>
+      <h2>Hello, I am Oluwaseyi</h2>
+      <p>Front-end developer in progress, building skills and projects step by step.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT ME SECTION -->
+  <section id="about" class="container flex-between">
+    <h2>About Me</h2>
+    <div class="card">
+      <h3>Tech Background</h3>
+      <p>I started learning frontend development around late January to early February. Right now, I’m focused on CSS, especially layout techniques like flexbox and grid.</p>
+      <details>
+        <summary>Show more</summary>
+      <p>So far, I’ve learned different CSS concepts like positioning, floats, and general layout structure. I’ve been practicing by building small projects like a menu list, a to-do list, and a login page.</p>
+      <p>I’ve also started working on my personal portfolio, although I’ve only completed about two sections so far. I understand the basic structure of a webpage like header, main, and footer but I’m still improving on how to properly design and style them.</p>
+      </details>
+    </div>
+    <div class="card">
+      <h3>Progress So Far</h3>
+      <p>At the beginning, I was really confused about how to use flexbox, especially when it came to centering elements. I used to mix up properties like flex-direction and justify-content, but now I understand better how they work together for layout and alignment.</p>
+      <details>
+        <summary>Read more</summary>
+
+      <p>I’ve also recently started learning CSS grid. At first, I thought it was simple, but now I see that it’s different from flexbox and requires a different way of thinking about layout. I can create basic structures with it, but I’m still learning how to properly apply it to real page sections like headers, main content, and footers.</p>
+      
+     <p>Another area I’ve improved in is understanding the relationship between parent and child elements in CSS. I now know how styling a parent can affect its children, and how to target elements more intentionally.</p>
+
+      <p>I still get confused when moving from writing HTML to styling with CSS especially when deciding how I want the design to look. Sometimes I also misuse spacing properties like margin and padding, and only realize later that I could have used a better approach.</p>
+
+     <p>For practice, I consistently build small projects and try to recreate them across different environments. For example, I use my laptop and also practice on my phone using CodePen. I’m focused on improving through repetition and hands-on practice, and I’m committed to getting better over time.</p>
+        </details>
+    </div>
+    <div class="card">
+      <h3>Blockers</h3>
+      <p>One of my biggest challenges is applying what I have learned to real projects. For example, when I learned float layouts, I understood it in practice, but when I tried to use it in my own webpage, it did not behave the way I expected.</p>
+      <details>
+        <summary>Read more</summary>
+         <p>I had issues with placing images and getting text to wrap properly around them. Sometimes the text would overlap or not align correctly, and I ended up adjusting things manually without fully understanding why it worked. That makes it hard for me to confidently recreate the same result again.</p>
+         <p>I also struggle with moving from writing HTML to actually styling the page. After setting up the structure, I often feel confused about how to approach the layout and design like where elements should go and how to arrange them properly.</p>
+         <p>Another challenge is understanding when to use certain CSS properties. For example, I sometimes misuse margin and padding, or I am unsure which element to style like whether to style a button itself or the link inside it.</p>
+
+         <p>I also notice that when I watch tutorials, I understand while watching, but when I try to practice later, I struggle to remember the exact steps or apply the concepts on my own.</p>
+        <p>Overall, I think my main blocker is that I need a deeper understanding of CSS concepts so I can apply them confidently, instead of guessing or relying on trial and error.</p>
+      <details>
+    </div>
+    <div class="card">
+      <h3>Tech Goals</h3>
+      <p>My long-term goal is to become a full-stack developer someone who can work on both the frontend and backend of applications. I’m still at the beginning of my journey, but I’m really interested in understanding how everything works together.</p>
+      <details>
+        <summary>Read more</summary>
+        <p>In the short term, I want to build a strong foundation in HTML and CSS and truly understand them, not just copy code. I also want to start building my own designs and projects instead of only recreating what I see.</p>
+        <p>In the next few months, I plan to learn JavaScript so I can begin working on more interactive and complex projects. I want to reach a point where I can confidently build bigger projects and not feel lost when given a task.</p>
+        <p>I also want to improve my ability to structure layouts, make design decisions, and work with things like colors and spacing without always second-guessing myself.</p>
+        <p>Ultimately, I want to become skilled enough to take on internships or real-world opportunities, where I can continue learning and growing. In the long run, I see myself working on real applications, possibly remotely, building useful products for people and growing into a strong developer in the tech space.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="con project">
+    <h2>Projects</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Login Page</h3>
+        <p>Simple login page built with HTML & CSS.</p>
+        <a href="#" class="btn" target="_blank"></a>
+      </div>
+      <div class="card">
+        <h3>To-Do List</h3>
+        <p>Functional to-do list built with HTML & CSS.</p>
+        <a href="#" class="btn" target="_blank"></a>
+      </div>
+      <div class="card">
+        <h3>Menu Page</h3>
+        <p>Interactive menu page layout with hover effects.</p>
+        <a href="View project" class="btn" target="_blank"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+      <footer>
+        <section id="contact" class="container contact">
+      <div>  
+        <h2>Contact</h2>
+        <p>phone: +243 8141638497</p>
+        <p>Email: babalolaoluwaseyifunmi4@gmail.com</p>
+     </div>
+     <div>
+      <h2>Socials</h2>
+      <a href="linkedin">LinkedIn</a>
+      <a href="instagram">Instagram</a>
+       <a href="facebook">Facebook</a>
+   </div>
+  </section>
+      </footer>
+</body>
+</html>

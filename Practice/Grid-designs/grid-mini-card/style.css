@@ -1,0 +1,27 @@
+.mini {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+.card {
+  background-color: #780000;
+  padding: 20px;
+  border-radius: 15px;
+  color: #FDF0D5;
+}
+.card:nth-child(1) {
+  grid-column: span 2;
+}
+.card:nth-child(4) {
+  grid-row: span 2;
+}
+.card:nth-child(2) {
+  background-color: #f0f0f0;
+  color: #780000;
+}
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+  background-color: black;
+}

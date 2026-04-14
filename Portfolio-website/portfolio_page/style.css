@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Nunito' san-serif;
+  min-height: 100vh;
+  font-size: 1rem;
+  
+  background-color: aliceblue;
+  /*background-image: linear-gradient(to left,steelblue, white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; i use these when i want to include an image or design the background myself */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+nav a {
+  text-decoration: none;
+  margin-inline: 0.5rem;
+}
+.hero {
+  height: 400px;
+  background-color: #e0f7fa;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 50px;
+  font-size: 2rem;
+  text-align: center;
+}
+/*h2 {
+  text-align: center;
+}*/
+.flex-between {
+ display: grid;
+ place-content: center;
+ /*gap: 0.5px;*/
+
+}
+ h2{
+  font-size: 35px;
+  text-align: start;
+  margin: 25px;
+}
+.card { 
+  background-color: rgb(110, 168, 218) rgba (0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+summary {
+  cursor: pointer;
+  color: blue;
+}
+summary:hover {
+  text-decoration: underline;
+  color: steelblue;
+}
+.grid-3 {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 25px;
+    margin: 25px;
+}
+.grid-3 .card {
+    background-color: rgb(50, 101, 145);
+   
+}
+footer {
+  background-image: linear-gradient(to top, steelblue, white);
+  background-size: cover;
+  /*background-color: steelblue;*/
+  border-radius: 10px;
+  padding: 15px;
+}
+.contact {
+  font-size: 20px;
+}
+.contact a {
+  text-decoration: none;
+  margin-inline: 2rem;
+}

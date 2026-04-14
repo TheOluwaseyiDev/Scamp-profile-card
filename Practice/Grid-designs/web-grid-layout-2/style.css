@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.groundwork {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "head head" "content cornerbar"  "foot foot";
+  gap: 10px;
+  min-height: 100vh;
+}
+.head {
+  grid-area: head;
+  background-color: #31572C;
+  color: #ECF39E;
+}
+.content {
+  grid-area: content;
+  background-color: white;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;  
+  padding: 20px;
+}
+.corner {
+  grid-area: cornerbar;
+  /*height: 100%; */
+  background-color: #90A955;
+}
+.item {
+  background-color: #ECF39E;
+  color: #132A13;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  background-color: #132A13;
+  color: #ECF39E;
+  padding: 7px 10px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+.item a:hover {
+  color: #4f772d;
+}
+.foot {
+  grid-area: foot;
+  background-color: #132A13;
+  color: white;
+  font-size: 2rem;
+}
+.head, .foot {
+  padding: 15px;
+  text-align: center;
+}
+.bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  }
+nav h2 {
+  color: #132A13;
+  margin-top: 100px;
+}
+nav a {
+  color: #132A13;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 6px;
+}
+nav a:hover {
+  background-color: #ecf39e;
+}
