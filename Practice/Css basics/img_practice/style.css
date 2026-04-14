@@ -26,12 +26,31 @@ body {
     min-height: 100vh;
     font-family:'Nunito' sans-serif;
     background-color: aliceblue;
-    background-image: url(Image/), linear-gradient(to bottom, rgb(18, 145, 122), rgb(187, 51, 51));
-    background-size: cover, auto;
+   /*  background-image: linear-gradient(to bottom, rgb(18, 145, 122), rgba(187, 51, 51, 0.236)); */
+    /* background-size: cover, auto;
     background-repeat: repeat-y, no-repeat;
-    background-position: left center;
+    background-position: right center;
+    background-size: 20% auto; */
+    /* for quicker and shorter way ⬇*/
+    background: repeat-y right center url(../../../Assets/Image/bubble-bg.jpeg), no-repeat linear-gradient(to left, rgb(18, 145, 122), rgba(187, 51, 51, 0.236)) ;
+    background-size: 20% auto;
+
 }
 
+.clip {
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image:  url(../../../Assets/Image/Spiral-bg.jpg);
+    text-transform: uppercase;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* For a fall back because this is not supported in firefox use */
+    color: hsla(0, 0%, 0%, 0.185);
+    /* we can use 'transparent' it works fine too*/
+   
+}
 .container {
     background-color: rgb(251, 210, 156);
     background-image: url('Image/Spiral-bg.jpg');

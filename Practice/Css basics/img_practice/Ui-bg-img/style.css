@@ -1,0 +1,78 @@
+.wrap {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+
+   /*  position: fixed;
+    top: 0;
+    background: white; */
+}
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+a { 
+    color: rgb(117, 102, 2);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+.hero {
+    height: 100vh;
+
+    background-image: linear-gradient( rgb(232, 201, 26), black); 
+    border-radius: 20px;
+    
+   /*  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    background-image: url(../../../../Assets/Image/bg-2.jpg);
+     background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.197);
+    background-attachment: fixed;
+}
+p {
+    font-size: 2.5rem;
+    
+}
+button {
+    padding: 20px 15px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: rgb(220, 182, 57);
+    border: none;
+}
+button:hover {
+    color: bisque;
+}
+/* footer {
+     background-image: linear-gradient( rgb(232, 201, 26), black); 
+    border-radius: 20px;
+}
+footer h2, .social {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+} */
