@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+     min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    background-color: #75dbd9;
+    background-image: radial-gradient(whitesmoke, #75dbd9);
+}
+header, nav, main, footer {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    grid-template-columns: 100%;
+}
+header, footer {
+        background-color: #023e8a;
+        padding: 1rem;
+        position: sticky;
+        color: #00b4d8;
+}
+header {
+    top: 0;
+}
+footer {
+    bottom: 0;
+}
+main {
+    flex-grow: 1;
+}
+nav {
+    background-color: white;
+    padding: 0.5rem;
+    color: #333;
+}
+
+/* Syntax:
+@media media type and (condition: breakpoint) for other type of condition we have min and max-width with pixels as a breakpoint is commom, there is "orientation" and the breakpoint will be set to"landscape". we also have min-aspect-ratio:16/9 or 7(width)/4(height) {
+    // CSS rules
+} */
+ /* || SMALL */
+ @media screen and (min-width: 576px) {
+    .container {
+        background-color: orangered;
+        background-image: radial-gradient(whitesmoke, orangered)
+    }
+   nav {
+    display: none;
+   }
+} 
