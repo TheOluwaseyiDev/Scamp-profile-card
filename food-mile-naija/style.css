@@ -17,7 +17,7 @@ html {
     position: sticky;
     top: 0;
     backdrop-filter: blur(10px);
-    padding: 20px 40px;
+    padding: 20px 30px;
     width: 100%;
     background: rgba(255,255,255,0.9);
     z-index: 1000;
@@ -195,22 +195,30 @@ footer {
     margin-top: 5px;
 }
 /* Tablet (medium screen) */
-@media (max-width; 900px) {
+@media (max-width: 900px) {
     .food-container {
         grid-template-columns: repeat(2, 1fr);
     } 
 }
 /* MOBILE RESPONSIVENESS */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
     .food-container {
         grid-template-columns: 1fr;
+        padding: 0 16px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .hero {
+        padding: 60px 16px;
+        text-align: left;
     }
     nav ul {
         flex-direction: column;
         gap: 10px;
-    }
-    .hero {
-        padding: 80px 20px;
     }
     
 }
